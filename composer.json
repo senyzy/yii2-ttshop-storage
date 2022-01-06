@@ -1,0 +1,23 @@
+{
+    "name": "senyzy/yii2-ttshop-storage",
+    "description": "A file uploading extension for Yii2, saving files to object storage service.",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "yiisoft/yii2": "^2.0",
+        "qiniu/php-sdk": "^7.4",
+        "aliyuncs/oss-sdk-php": "^2.4",
+        "qcloud/cos-sdk-v5": "^2.5"
+    },
+    "authors": [
+        {
+            "name": "senyzy",
+            "email": "senyzy@foxmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ttshop\\Storage\\": "lib/"
+        }
+    }
+}
